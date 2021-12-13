@@ -83,7 +83,7 @@
         frmps.basicpayamount = txt_basic_pay.Text
         frmps.overtimehours = txt_ot_hrs.Text
         frmps.taxdeduction = basic_pay * 0.2
-        frmps.name = txt_fn.Text + " " + txt_ln.Text
+        frmps.employeename = txt_fn.Text + " " + txt_ln.Text
 
         Me.Hide()
         frmps.Show()

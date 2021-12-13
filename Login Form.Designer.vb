@@ -34,63 +34,60 @@ Partial Class Login_Form
         '
         'btn_login
         '
-        Me.btn_login.Location = New System.Drawing.Point(281, 180)
-        Me.btn_login.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btn_login.Location = New System.Drawing.Point(321, 240)
         Me.btn_login.Name = "btn_login"
-        Me.btn_login.Size = New System.Drawing.Size(86, 27)
+        Me.btn_login.Size = New System.Drawing.Size(98, 36)
         Me.btn_login.TabIndex = 0
         Me.btn_login.Text = "Login"
         Me.btn_login.UseVisualStyleBackColor = True
         '
         'txt_username
         '
-        Me.txt_username.Location = New System.Drawing.Point(140, 90)
-        Me.txt_username.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt_username.Location = New System.Drawing.Point(160, 120)
         Me.txt_username.Name = "txt_username"
-        Me.txt_username.Size = New System.Drawing.Size(227, 23)
+        Me.txt_username.Size = New System.Drawing.Size(259, 27)
         Me.txt_username.TabIndex = 1
         '
         'lbl_username
         '
         Me.lbl_username.AutoSize = True
-        Me.lbl_username.Location = New System.Drawing.Point(44, 92)
+        Me.lbl_username.Location = New System.Drawing.Point(50, 123)
         Me.lbl_username.Name = "lbl_username"
-        Me.lbl_username.Size = New System.Drawing.Size(60, 15)
+        Me.lbl_username.Size = New System.Drawing.Size(75, 20)
         Me.lbl_username.TabIndex = 2
         Me.lbl_username.Text = "Username"
         '
         'lbl_password
         '
         Me.lbl_password.AutoSize = True
-        Me.lbl_password.Location = New System.Drawing.Point(48, 138)
+        Me.lbl_password.Location = New System.Drawing.Point(55, 184)
         Me.lbl_password.Name = "lbl_password"
-        Me.lbl_password.Size = New System.Drawing.Size(57, 15)
+        Me.lbl_password.Size = New System.Drawing.Size(70, 20)
         Me.lbl_password.TabIndex = 3
         Me.lbl_password.Text = "Password"
         '
         'txt_password
         '
-        Me.txt_password.Location = New System.Drawing.Point(140, 136)
-        Me.txt_password.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.txt_password.Location = New System.Drawing.Point(160, 181)
         Me.txt_password.Name = "txt_password"
-        Me.txt_password.Size = New System.Drawing.Size(227, 23)
+        Me.txt_password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.txt_password.Size = New System.Drawing.Size(259, 27)
         Me.txt_password.TabIndex = 4
         '
         'lbl_login
         '
         Me.lbl_login.AutoSize = True
-        Me.lbl_login.Location = New System.Drawing.Point(229, 29)
+        Me.lbl_login.Location = New System.Drawing.Point(262, 39)
         Me.lbl_login.Name = "lbl_login"
-        Me.lbl_login.Size = New System.Drawing.Size(37, 15)
+        Me.lbl_login.Size = New System.Drawing.Size(46, 20)
         Me.lbl_login.TabIndex = 5
         Me.lbl_login.Text = "Login"
         '
         'btn_cancel
         '
-        Me.btn_cancel.Location = New System.Drawing.Point(140, 180)
-        Me.btn_cancel.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btn_cancel.Location = New System.Drawing.Point(160, 240)
         Me.btn_cancel.Name = "btn_cancel"
-        Me.btn_cancel.Size = New System.Drawing.Size(86, 27)
+        Me.btn_cancel.Size = New System.Drawing.Size(98, 36)
         Me.btn_cancel.TabIndex = 6
         Me.btn_cancel.Text = "Cancel"
         Me.btn_cancel.UseVisualStyleBackColor = True
@@ -98,16 +95,16 @@ Partial Class Login_Form
         'lbl_loginincorrect
         '
         Me.lbl_loginincorrect.AutoSize = True
-        Me.lbl_loginincorrect.Location = New System.Drawing.Point(143, 62)
+        Me.lbl_loginincorrect.Location = New System.Drawing.Point(163, 83)
         Me.lbl_loginincorrect.Name = "lbl_loginincorrect"
-        Me.lbl_loginincorrect.Size = New System.Drawing.Size(0, 15)
+        Me.lbl_loginincorrect.Size = New System.Drawing.Size(0, 20)
         Me.lbl_loginincorrect.TabIndex = 7
         '
         'Login_Form
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(466, 245)
+        Me.ClientSize = New System.Drawing.Size(533, 327)
         Me.Controls.Add(Me.lbl_loginincorrect)
         Me.Controls.Add(Me.btn_cancel)
         Me.Controls.Add(Me.lbl_login)
@@ -116,7 +113,6 @@ Partial Class Login_Form
         Me.Controls.Add(Me.lbl_username)
         Me.Controls.Add(Me.txt_username)
         Me.Controls.Add(Me.btn_login)
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "Login_Form"
         Me.Text = "Login_Form"
         Me.ResumeLayout(False)
